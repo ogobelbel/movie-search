@@ -1,7 +1,7 @@
 import { storage } from "./storage";
 
 class FavoriteFilms {
-    addFilmToFavorite(element) {
+    addFilmToFavorite(element) { //что такое элемент
         if(this.getFavoriteFilms()) {
             let films = this.getFavoriteFilms();
             films.push(element.dataset.imdbID);
